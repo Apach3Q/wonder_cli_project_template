@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
+import 'package:app_template/app_init/app_init.dart';
 
-void main() {
-  runApp(Container());
-}
+void main() => AppInit.run();
