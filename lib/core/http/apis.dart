@@ -1,4 +1,4 @@
-import 'package:app_template/providers/shared_preferences_service.dart';
+import 'package:app_template/core/store/shared_preferences_service.dart';
 
 class APIs {
   static String _internalApiKey = 'ee027e0cf4dd446587758c0079c05f88';

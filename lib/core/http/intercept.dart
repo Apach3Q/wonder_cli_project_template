@@ -1,7 +1,6 @@
 import 'package:app_template/core/http/apis.dart';
 import 'package:app_template/core/http/error_handle.dart';
-import 'package:app_template/core/utils/log.dart';
-import 'package:app_template/providers/shared_preferences_service.dart';
+import 'package:app_template/tools/log.dart';
 import 'package:dio/dio.dart';
 
 class ApiKeyInterceptor extends Interceptor {

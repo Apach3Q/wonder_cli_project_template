@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:app_template/core/firebase/firebase_service.dart';
-import 'package:app_template/core/router/const.dart';
-import 'package:app_template/core/router/routes.dart';
+import 'package:app_template/core/analytics/firebase_service.dart';
+import 'package:app_template/tools/router/const.dart';
+import 'package:app_template/tools/router/routes.dart';
 import 'package:app_template/core/store/global.dart';
-import 'package:app_template/core/utils/email_service.dart';
+import 'package:app_template/tools/service/email_service.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';

@@ -1,4 +1,4 @@
-import 'package:app_template/providers/shared_preferences_service.dart';
+import 'package:app_template/core/store/shared_preferences_service.dart';
 import 'package:carrier_info/carrier_info.dart';
 
 class ApiPing {
