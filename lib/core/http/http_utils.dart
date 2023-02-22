@@ -1,5 +1,5 @@
 import 'package:app_template/core/http/dio_utils.dart';
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 import 'package:dio/dio.dart';
 
 typedef Success<T> = Function(T data);

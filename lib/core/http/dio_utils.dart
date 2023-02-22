@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:app_template/core/http/error_handle.dart';
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:dio/dio.dart';
 import 'package:dio/io.dart';

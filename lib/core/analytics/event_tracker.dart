@@ -1,5 +1,5 @@
 import 'package:app_template/core/analytics/firebase_service.dart';
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 
 class EventTracker {
   static log({

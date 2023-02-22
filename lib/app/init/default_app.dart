@@ -2,9 +2,7 @@ import 'dart:io';
 
 import 'package:app_template/core/analytics/firebase_service.dart';
 import 'package:app_template/core/http/api_ping.dart';
-import 'package:app_template/core/http/http.dart';
-import 'package:app_template/core/store/global.dart';
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 import 'package:app_template/tools/router/app_router.dart';
 import 'package:app_template/generated/l10n.dart';
 import 'package:app_template/providers/providers.dart';
@@ -29,7 +27,6 @@ class DefaultApp {
   }
 
   static Future<void> _initFirst() async {
-    await Providers.instance.initialized();
     WidgetsFlutterBinding.ensureInitialized();
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,

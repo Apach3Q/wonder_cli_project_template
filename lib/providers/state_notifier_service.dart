@@ -1,4 +1,4 @@
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class StateNotifierService<T> extends StateNotifier<T> {

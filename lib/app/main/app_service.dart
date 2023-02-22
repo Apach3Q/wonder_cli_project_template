@@ -1,5 +1,5 @@
 import 'package:app_template/core/http/api_ping.dart';
-import 'package:app_template/core/http/http.dart';
+import 'package:app_template/core/http/wonder_http.dart';
 import 'package:app_template/providers/state_notifier_service.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -18,7 +18,6 @@ class AppService extends StateNotifierService<int> {
   void _initApi() {
     ApiPing.init();
     WonderHttp.init();
-    Http2.init();
   }
 
   // todo: init payment
