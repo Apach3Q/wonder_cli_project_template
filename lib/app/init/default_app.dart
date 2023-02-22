@@ -32,7 +32,8 @@ class DefaultApp {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
         overlays: SystemUiOverlay.values);
     LogUtils.init(tag: '', isDebug: true, maxLen: 128000); // todo: tag
-    await FirebaseService.initialize();
+    /// todo: config firebase and initialize
+    // await FirebaseService.initialize();
     await _initializeTensorFlow();
     if (Platform.isIOS) {
       _registiOSWidget();

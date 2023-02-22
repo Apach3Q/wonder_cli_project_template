@@ -13,7 +13,8 @@ import 'package:url_launcher/url_launcher.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
-    observers: <NavigatorObserver>[FirebaseService.observer],
+    /// todo: config firebase and use [FirebaseService.observer]
+    // observers: <NavigatorObserver>[FirebaseService.observer],
     initialLocation: appRoutePath,
     routes: routes,
   );
