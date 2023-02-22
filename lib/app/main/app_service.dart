@@ -17,7 +17,7 @@ class AppService extends StateNotifierService<int> {
 
   void _initApi() {
     ApiPing.init();
-    Http1.init();
+    WonderHttp.init();
     Http2.init();
   }
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:app_template/app/main/app_service.dart';
-import 'package:app_template/tools/log.dart';
+import 'package:app_template/tools/utils/log_utils.dart';
 import 'package:app_template/tools/mixin/post_frame_mixin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

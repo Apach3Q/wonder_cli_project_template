@@ -29,6 +29,7 @@ class DefaultApp {
   }
 
   static Future<void> _initFirst() async {
+    await Providers.instance.initialized();
     WidgetsFlutterBinding.ensureInitialized();
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,

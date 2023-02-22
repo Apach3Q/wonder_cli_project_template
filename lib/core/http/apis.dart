@@ -1,14 +1,14 @@
 import 'package:app_template/core/store/shared_preferences_service.dart';
 
 class APIs {
-  static String _internalApiKey = 'ee027e0cf4dd446587758c0079c05f88';
-  static String _abroadApiKey = '3dd99ac1afbc48b9892d6551ff8b4d0e';
+  static String _internalApiKey = ''; // todo: api key
+  static String _abroadApiKey = '';
 
   static String _internalUrl = 'https://picupapi.tukeli.net/';
-  static String _abroadUrl = 'https://www.cutout.pro/';
+  static String _abroadUrl = 'https://restapi.cutout.pro/';
 
-  static String _abroadUploadImageUrl = 'https://restapi.cutout.pro/';
   static String _internalUploadImageUrl = 'http://47.99.178.15:8083/';
+  static String _abroadUploadImageUrl = 'https://restapi.cutout.pro/';
 
   static String mattingApi = 'api/v1/mattingByUrl';
   static String cartoonApi = 'api/v1/cartoonSelfieByUrl';

@@ -25,6 +25,10 @@ class HttpUtils {
     return this;
   }
 
+  void updateBaseUrl(String baseUrl) {
+    _dioUtils.updateBaseUrl(baseUrl);
+  }
+
   /// get 请求
   void get<T>(
     String url,
@@ -33,7 +37,7 @@ class HttpUtils {
     Success? success,
     Fail? fail,
   }) {
-    _request(
+    request(
       Method.get,
       url,
       params,
@@ -51,7 +55,7 @@ class HttpUtils {
     Success? success,
     Fail? fail,
   }) {
-    _request(
+    request(
       Method.post,
       url,
       params,
@@ -62,7 +66,7 @@ class HttpUtils {
   }
 
   /// _request 请求
-  void _request<T>(
+  void request<T>(
     Method method,
     String url,
     params, {

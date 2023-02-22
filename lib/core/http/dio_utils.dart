@@ -50,7 +50,7 @@ class DioUtils {
     return this;
   }
 
-  updateBaseUrl(String baseUrl) {
+  void updateBaseUrl(String baseUrl) {
     _dio.options.baseUrl = baseUrl;
   }
 
